@@ -6,15 +6,9 @@
 
 [Learn more about this workspace setup and its capabilities](https://nx.dev/nx-api/js?utm_source=nx_project&amp;utm_medium=readme&amp;utm_campaign=nx_projects) or run `npx nx graph` to visually explore what was created. Now, let's get you up to speed!
 
-## Run tasks
-
-To build the library use:
-
-```sh
-npx nx build
-```
 
 
+----------------------------------------------------------
 # Important instructions regarding .env
 ## Server port
 PORT=3001
@@ -33,6 +27,19 @@ AWS_SECRET_ACCESS_KEY=your_aws_secret_access_key
 SQS_QUEUE_URL=your_sqs_queue_url
 
 
+--------------------------------------------------------------
+
+
+
+
+
+## Run tasks
+
+To build the library use:
+
+```sh
+npx nx build
+```
 
 
 
