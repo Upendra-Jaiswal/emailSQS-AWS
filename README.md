@@ -13,6 +13,25 @@ To build the library use:
 ```sh
 npx nx build
 ```
+
+
+#important instructions regarding .env
+# Server port
+PORT=3001
+
+# Email settings
+EMAIL_PRIMARY_USER=your_primary_email@example.com
+EMAIL_PRIMARY_PASS=your_primary_email_password
+EMAIL_BACKUP_USER=your_backup_email@example.com
+EMAIL_BACKUP_PASS=your_backup_email_password
+
+# AWS credentials
+AWS_ACCESS_KEY_ID=your_aws_access_key_id
+AWS_SECRET_ACCESS_KEY=your_aws_secret_access_key
+
+# SQS queue URL
+SQS_QUEUE_URL=your_sqs_queue_url
+
         
 These targets are either [inferred automatically](https://nx.dev/concepts/inferred-tasks?utm_source=nx_project&utm_medium=readme&utm_campaign=nx_projects) or defined in the `project.json` or `package.json` files.
 
